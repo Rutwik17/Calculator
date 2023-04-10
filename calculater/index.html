@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+        <h1 class="logo-name" style="color:white">Calculater</h1>
+    </div>
+    <div class="con">
+        <div class="text-fi">
+            <input style="text-align:center" type="text" id="textval" placeholder="00" >
+        </div>
+        <div class="input-btn">
+            <input type="button" value="1" onclick="textval.value+='1'">
+            <input type="button" value="2" onclick="textval.value+='2'">
+            <input type="button" value="3" onclick="textval.value+='3'">
+            <input type="button" value="+" onclick="textval.value+='+'">
+        </div>
+        <div class="input-btn">
+            <input type="button" value="4" onclick="textval.value+='4'">
+            <input type="button" value="5" onclick="textval.value+='5'">
+            <input type="button" value="6" onclick="textval.value+='6'">
+            <input type="button" value="-" onclick="textval.value+='-'">
+        </div>
+        <div class="input-btn">
+            <input type="button" value="7" onclick="textval.value+='7'">
+            <input type="button" value="8" onclick="textval.value+='8'">
+            <input type="button" value="9" onclick="textval.value+='9'">
+            <input type="button" value="*" onclick="textval.value+='*'">
+        </div>
+        <div class="input-btn">
+            <input type="button" value="00" onclick="textval.value+='00'">
+            <input type="button" value="0" onclick="textval.value+='0'">
+            <input type="button"  value="=" onclick="textval.value = eval(textval.value)">
+            <input type="button"  value="AC" onclick="textval.value = ''">
+        </div>
+       
+    </div>
+    
+</body>
+</html>

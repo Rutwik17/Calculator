@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+#textval{
+    width: 275px;
+    padding: 0px 23px;
+    outline: none;
+    
+    
+}
+input:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.02);
+    box-shadow: 0 0 100px black;
+    transition: 0.1s;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.logo-name{
+    padding: 0 0 40px 0;
+    text-shadow: 0 0 50px black;
+}
+.con{
+    background-color: rgb(199, 199, 199);
+    padding: 30px;
+    border-radius: 20px;
+}
+input{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    font-size: large;
+    
+}
